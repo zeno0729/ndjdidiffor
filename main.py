@@ -47,5 +47,15 @@ def main():
     else:
         print("NO LESS THAN 9 OR MORE THAN 10 PER PROCESS!! . Access denied.")
 
+# Get the current date and time
+now = datetime.datetime.now()
+
+# Format the date and time
+formatted_date_time = now.strftime("%Y-%m-%d %H:%M:%S")
+
+# Print the date and time
+print("Current Date and Time:", formatted_date_time)
+
+
 if __name__ == "__main__":
     main()
