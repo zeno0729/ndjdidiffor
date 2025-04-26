@@ -7,6 +7,7 @@ import string
 import json
 import hashlib
 import subprocess
+import datetime
 
 
 os.system('git pull --quiet 2>/dev/null')
